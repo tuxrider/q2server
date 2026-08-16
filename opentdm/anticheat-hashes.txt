@@ -1,0 +1,7 @@
+!Tastyspleen hash list
+# - RailWolf 
+#
+\include hashes/spikedmodels.hashes
+\include hashes/sounds.hashes
+\include hashes/vwep_missing.hashes
+\include hashes/vwep_patch.hashes

@@ -1,0 +1,12 @@
+
+// ==============================================================================
+// 	Serverconfig for R1CH.NET ANTICHEAT MODULE
+// 		Anticheat BYPASS passwords
+// ==============================================================================
+// Do NOT change the name of this file!
+// See http://www.r1ch.net/forum/index.php?board=9.0
+// --> Server admin section
+// You have to be authorized by R1CH to enter this sub-forum.
+
+GTV
+cebster

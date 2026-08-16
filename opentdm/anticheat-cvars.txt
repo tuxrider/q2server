@@ -1,0 +1,36 @@
+
+// ==============================================================================
+// 	Serverconfig for R1CH.NET ANTICHEAT MODULE
+// 		Client-CVAR CHECKLIST 
+// ==============================================================================
+// Do NOT change the name of this file!
+// See http://www.r1ch.net/forum/index.php?board=9.0
+// --> Server admin section
+// You have to be authorized by R1CH to enter this sub-forum.
+
+
+cl_maxfps	>	200	200
+cl_maxfps	<	20	20
+rate		<       10      10
+rate		>       60000   60000
+cl_nodelta	!=	0	0
+cl_predict	!=	1	1
+timescale	!=	1	1
+
+//some renderer restrictions
+gl_driver	ne	opengl32	opengl32
+gl_clear	!=	0	0
+gl_lockpvs	!=	0	0
+gl_lightmap	!=	0	0
+r_drawworld	!=	1	1
+//r_fullbright	!=	1	1 //causes internal ac violation
+
+//force download maps
+allow_download	!=	1	1
+allow_download_maps	!=	1	1
+allow_download_textures	!=	1	1
+
+// EGL checks
+r_hwGamma	!=	0	0
+cg_thirdPerson	!=	0	0
+
