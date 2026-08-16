@@ -11,10 +11,10 @@
 
 cl_maxfps	>	200	200
 cl_maxfps	<	20	20
-rate		<       10      10
-rate		>       60000   60000
 cl_nodelta	!=	0	0
 cl_predict	!=	1	1
+rate	<	0	0
+rate	>	25000	25000
 timescale	!=	1	1
 
 //some renderer restrictions

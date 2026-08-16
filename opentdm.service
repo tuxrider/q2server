@@ -1,0 +1,17 @@
+[Unit]
+Description=Quake 2 OpenTDM TDM Server
+After=network.target
+
+[Service]
+Type=simple
+User=proto
+Group=proto
+WorkingDirectory=/home/proto/q2server
+ExecStart=/home/proto/q2server/opentdm.sh
+Restart=always
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
